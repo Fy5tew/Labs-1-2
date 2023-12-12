@@ -1,0 +1,1 @@
+export { CommentDelete } from './CommentDelete';

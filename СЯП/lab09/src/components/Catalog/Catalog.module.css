@@ -1,0 +1,33 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0.5em 0.5em 1em 0.5em;
+
+    background-color: #c3dbe3;
+}
+
+.optionGroup {
+    display: flex;
+    gap: 0.5em;
+}
+
+.optionLabel {
+    margin: 0;
+    font-weight: 500;
+}
+
+.option {
+    margin: 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.option:hover {
+    color: red;
+}
+
+.option[data-selected="true"],
+.option [data-selected="true"] {
+    text-decoration: underline;
+}

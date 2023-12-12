@@ -1,0 +1,41 @@
+.phone-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-input__wrapper {
+    height: 30px;
+    width: 300px;
+    padding: 1px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.phone-input__img {
+    width: 32px;
+}
+
+.phone-input__input-area,
+.phone-input__country-select {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 1em;
+}
+
+.phone-input__input-area:focus-visible,
+.phone-input__country-select:focus-visible {
+    outline: none;
+}
+
+.phone-input__operator-radio {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

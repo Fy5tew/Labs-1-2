@@ -1,0 +1,30 @@
+.student-info-handler {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.student-info-handler__head {
+    width: 600px;
+    position: relative;
+}
+
+
+.student-info-handler__head > button {
+    position: absolute;
+    top: 21px;
+    right: 0;
+}
+
+
+.student-info-handler__content {
+    width: 600px;
+}
+
+
+.student-info-handler__row > * {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}

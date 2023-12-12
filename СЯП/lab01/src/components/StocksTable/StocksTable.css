@@ -1,0 +1,21 @@
+.stocks-table-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.stocks-table th {
+    background-color: lightblue;
+}
+
+.stocks-table :is(td, th) {
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
+.stocks-table td.red {
+    background-color: indianred;
+}
+
+.stocks-table td.green {
+    background-color: limegreen;
+}

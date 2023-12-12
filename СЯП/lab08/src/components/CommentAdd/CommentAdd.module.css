@@ -1,0 +1,12 @@
+.textarea {
+    height: 20ch;
+}
+
+.imageWrapper {
+    height: 35px;
+    aspect-ratio: 1/1;
+}
+
+.image {
+    width: 100%;
+}

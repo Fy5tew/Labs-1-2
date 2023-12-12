@@ -1,0 +1,35 @@
+.chess-board-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.chess-board {
+    display: flex;
+    flex-direction: column;
+}
+
+.chess-board > .row {
+    display: flex;
+    flex-direction: row;
+} 
+
+.chess-board > .row > .cell {
+    width: 50px;
+    aspect-ratio: 1 / 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess-board > .row > .cell.text {
+    color: #d27106;
+}
+
+.chess-board > .row > .cell.white {
+    background-color: #fbe2c3;
+}
+
+.chess-board > .row > .cell.black {
+    background-color: #d27106;
+}

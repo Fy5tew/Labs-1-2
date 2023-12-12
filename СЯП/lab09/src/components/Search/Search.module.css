@@ -1,0 +1,19 @@
+.search {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    padding: 1em 0.5em 0.5em 0.5em;
+
+    background-color: #c3dbe3;
+}
+
+.header {
+    margin: 0;
+}
+
+.searchBar {
+    font-size: 1.2em;
+    flex: 1;
+    background-color: transparent;
+    min-width: 100%;
+}

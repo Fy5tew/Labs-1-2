@@ -1,0 +1,22 @@
+.clock {
+    font-size: 60px;
+}
+
+.clock__dots {
+    animation: blink 1s linear infinite;
+}
+
+.clock__seconds {
+    font-size: 0.75em;
+}
+
+.clock__info {
+    font-size: 0.3em;
+    text-decoration: underline;
+}
+
+@keyframes blink {
+    100% {
+        color: transparent;
+    }
+}

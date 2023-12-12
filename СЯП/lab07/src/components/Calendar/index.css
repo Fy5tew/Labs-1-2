@@ -1,0 +1,88 @@
+.calendar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar {
+    width: 300px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.calendar__head {
+    padding: 1em;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.calendar__month-select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar__month-change-button {
+    background-color: lightgrey;
+    border: none;
+    font-size: 1.5em;
+    padding: 0.2em;
+    width: 32px;
+    aspect-ratio: 1/1;
+}
+
+.calendar__month-change-button:hover {
+    background-color: #9f9f9f;
+}
+
+.calendar__month-name {
+    margin: 0;
+    font-weight: bold;
+}
+
+.calendar__day-labels {
+    display: flex;
+    justify-content: space-around;
+}
+
+.calendar__day-label {
+    font-weight: bold;
+}
+
+.calendar__body {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar__day-cell {
+    margin: 2px;
+}
+
+.calendar__day-cell.disabled {
+    color: grey;
+}
+
+.calendar__day-cell:not(.disabled):hover {
+    background-color: lightgrey;
+}
+
+.calendar__day-cell:not(.disabled).partial-selected {
+    outline: 2px solid lightblue;
+}
+
+.calendar__day-cell:not(.disabled).full-selected {
+    background-color: lightgrey;
+}
+
+.calendar__day-cell:not(.disabled).current {
+    color: red;
+}
+
+.calendar__day-cell:not(.disabled).has-notes {
+    background-color: yellow;
+}

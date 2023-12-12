@@ -1,0 +1,11 @@
+.separator-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.separator {
+    margin: 2em;
+    height: 1px;
+    width: 80%;
+    background-color: black;
+}

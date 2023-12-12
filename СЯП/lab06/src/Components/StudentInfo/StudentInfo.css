@@ -1,0 +1,32 @@
+.student-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.student-info__content {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.input__label {
+    width: 35%;
+}
+
+.input__field {
+    flex-grow: 1;
+}
+
+.input__field:invalid {
+    outline: 3px solid orange;
+}

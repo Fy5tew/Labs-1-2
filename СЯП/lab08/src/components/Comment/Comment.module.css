@@ -1,0 +1,8 @@
+.imageWrapper {
+    width: 40px;
+    aspect-ratio: 1/1;
+}
+
+.image {
+    width: 100%;
+}

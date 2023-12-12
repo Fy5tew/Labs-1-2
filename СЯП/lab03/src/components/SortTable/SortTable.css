@@ -1,0 +1,55 @@
+.sort-table-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.sort-table {
+    border-collapse: collapse;
+}
+
+.sort-table__head {}
+
+.sort-table__body {}
+
+.sort-table__row {}
+
+.sort-table__row.yellow {
+    background-color: #ffff40;
+}
+
+.sort-table__row.red {
+    background-color: #ff2020;
+}
+
+.sort-table__title,
+.sort-table__data {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.sort-table__title {
+    background-color: lightgrey;
+}
+
+.sort-table__data {}
+
+.sort-table__arrow {
+    font-size: 1.3em;
+    color: #5a5959;
+}
+
+.sort-table__title:hover {
+    background-color: #afafaf;
+}
+
+.sort-table__row:hover {
+    background-color: #ffff80;
+}
+
+.sort-table__row.red:hover {
+    background-color: red;
+}
+
+.sort-table__row.yellow:hover {
+    background-color: yellow;
+}
